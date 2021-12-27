@@ -1,0 +1,89 @@
+html,body{
+    /* background-color: aqua; */
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.nav a{
+    float: left;
+    text-align: center;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topNav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+}
+a:link, a:visited{
+    text-align: center;
+    text-decoration: none;
+}
+  
+.nav a:hover, a:active {
+    background-color: #000;
+}
+.footer{ 
+    width: 100%;
+    position: fixed;
+    background-color: gray;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+}
+/* .footer{
+    padding: 10px;
+    margin: 0 0 20px 20px;
+} */
+#photo{
+    background-image: url("photogrpaher.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+}
+.container{
+    margin-top: 0;
+    height:500px;
+    width: 100%;
+}
+.footerElement a{
+    float: left;
+    text-align: center;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+#about p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 20px;
+}
+#about .container{
+    text-align: center;
+    width: 75%;   
+}
+#contact p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    float: right;
+    margin-right: 50px;
+}
+#photo p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 80px;
+    font-weight: 800;
+    margin-left: 50px;
+    margin-top: 20px;
+    color: whitesmoke;
+}
+.footerElement p{
+    font-size: 20px;
+    color: whitesmoke;
+}
